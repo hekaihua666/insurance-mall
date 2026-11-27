@@ -1,0 +1,23 @@
+# 本机配置与凭证
+.env
+.env.*
+!.env.example
+deploy/milvus/user.yaml
+
+# 依赖、编译产物与日志
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+target/
+dist/
+*.tsbuildinfo
+*.log
+.idea/
+.vscode/
+
+# 本机知识库素材与数据库备份
+agent-service/data/
+deploy/postgres/backup*.sql
